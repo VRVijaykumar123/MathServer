@@ -162,8 +162,9 @@ urlpatterns = [
 
 ## OUTPUT:
 
-![Alt text](<web math 1.png>)
-![Alt text](<web math 2.png>)
+![web math 1](https://github.com/VRVijaykumar123/MathServer/assets/133218255/72d63547-9b50-4805-89e8-8ed04c4c299f)
+![web math 2](https://github.com/VRVijaykumar123/MathServer/assets/133218255/659e94e7-4091-4e20-9223-9f2ececa70ce)
+
 
 
 ## RESULT:
