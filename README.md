@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date:26/10/2023
 
 ## AIM:
 To design a website to find total surface area of a square prism in server side.
@@ -31,7 +31,7 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 ## math.html
-
+```
 <html>
 
 <head>
@@ -109,8 +109,9 @@ Publish the website in the given URL.
 </body>
 
 </html>
- 
+ ```
  ## view.py
+ ```
  from django.shortcuts import render
 
 def rectarea(request):
@@ -131,9 +132,9 @@ def rectarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'mathapp/math.html',context)
-
+```
 ## urls.py
-
+```
 """
 URL configuration for mathser project.
 
@@ -159,7 +160,7 @@ urlpatterns = [
     path('',views.rectarea,name="areaofrectangleroot")
 ]
 
-
+```
 ## OUTPUT:
 
 ![web math 1](https://github.com/VRVijaykumar123/MathServer/assets/133218255/72d63547-9b50-4805-89e8-8ed04c4c299f)
